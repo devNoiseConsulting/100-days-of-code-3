@@ -36,7 +36,7 @@ Missed that some of the links to my Advent of Code Gist were not linked to the c
 **Link to work:**
 -   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/667a1a7c96a5fe302a8cf2f814dbbd4c635e5d11)
 
-### Round 3, Day 4: Jan 4, 2018
+### Round 3, Day 4: Jan 5, 2018
 
 **Today's Progress:** Started Udacity's Front-End Web Developer preview.
 
@@ -45,17 +45,29 @@ Missed that some of the links to my Advent of Code Gist were not linked to the c
 **Link to work:**
 -   [Udacity's New Year, New Skills](https://www.udacity.com/new-year)
 
-### Round 3, Day 5: Jan 4, 2018
+### Round 3, Day 5: Jan 6, 2018
 
 **Today's Progress:** Finished Udacity's Front-End Web Developer preview and refactoring on the voting app.
 
 **Thoughts:** Completed the Front-End Web Developer preview. The sections today mostly focused on know how to use a text editor. Was a little bit useful, but mostly review.
 
-Did a little bit of work on the Voting App. Moved most of the routing into the App component and move most of the old App component into a new component named Home. The moved the header back to the App component. Just a bit of busy work while I contemplate how state should move between routed components. Do bite the bullet and drive into Redux for app state management?
+Did a little bit of work on the Voting App. Moved most of the routing into the App component and move most of the old App component into a new component named Home. The moved the header back to the App component. Just a bit of busy work while I contemplate how state should move between routed components. Do I bite the bullet and drive into Redux for app state management?
 
 **Link to work:**
 -   [Udacity's New Year, New Skills](https://www.udacity.com/new-year)
 -   [fCC's Voting App Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/771d04dbc8af0f3a39e3b4087bbbbc9d9a582da6)
+
+### Round 3, Day 6: Jan 7, 2018
+
+**Today's Progress:** Worked on a map to visualize the Pokemon Go raid zones in my area.
+
+**Thoughts:** Avoiding the Redux question for now by making a map. Used [Parcel](https://parceljs.org/) to handle building the project. Seems pretty good, but having issues with getting the browser to refresh. This may have to do with the fact that Parcel was invoked with index.html as an argument. Will have to look into this some more.
+
+Hard coded a lot of circles. Should come back and have the code iterate over an array of objects with the needed data. 
+
+**Link to work:**
+-   [Pokemon Go Raid Zones Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/771d04dbc8af0f3a39e3b4087bbbbc9d9a582da6)
+
 
 <!--
 
