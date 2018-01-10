@@ -63,11 +63,34 @@ Did a little bit of work on the Voting App. Moved most of the routing into the A
 
 **Thoughts:** Avoiding the Redux question for now by making a map. Used [Parcel](https://parceljs.org/) to handle building the project. Seems pretty good, but having issues with getting the browser to refresh. This may have to do with the fact that Parcel was invoked with index.html as an argument. Will have to look into this some more.
 
-Hard coded a lot of circles. Should come back and have the code iterate over an array of objects with the needed data. 
+Hard coded a lot of circles. Should come back and have the code iterate over an array of objects with the needed data.
 
 **Link to work:**
 -   [Pokemon Go Raid Zones Commit](https://github.com/devNoiseConsulting/fcc-voting-app/commit/771d04dbc8af0f3a39e3b4087bbbbc9d9a582da6)
 
+
+### Round 3, Day 7: Jan 8, 2018
+
+**Today's Progress:** Refactoring the Pokemon Go raid zones map.
+
+**Thoughts:** Move the Mapbox Access Token in a "config" file. Then started to move all the raid zone data into array of zone objects. Created a function that could take the raid zones and draw the circles on the map. Later moved the raid zones into the config object.
+
+Color stuff will always suck up my time. Used the [Material Design color palette](https://material.io/guidelines/style/color.html#color-color-palette) to give each raid zone a unique color. Played around until I had a color set I liked.
+
+**Link to work:**
+-   [Pokemon Go Raid Zones Commit](https://github.com/devNoiseConsulting/PokemonGoRaidZones/commit/012d21eec9a1b4424319ee3f186bb0655f3a7b8d)
+
+
+### Round 3, Day 8: Jan 9, 2018
+
+**Today's Progress:** More work on the Pokemon Go raid zones map.
+
+**Thoughts:** Still trying to improve my understanding of [Parcel](https://parceljs.org/). I've yet to figure out how to get it to do hot reloading, still have to refresh the browser. For the production build, have to use `--public-url ./` so the html points at all the right files.
+
+Added the Bootstrap framework to give the page a polished look. Changed the units on the map from pixels to viewport height. Also added a function to reset the map back to default state. Moved starting data into the config object.
+
+**Link to work:**
+-   [Pokemon Go Raid Zones Commit](https://github.com/devNoiseConsulting/PokemonGoRaidZones/commit/76c9a272bd5f78a0feaa79ebbb57bfae0b1d9daf)
 
 <!--
 
