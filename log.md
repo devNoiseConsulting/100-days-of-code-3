@@ -92,6 +92,17 @@ Added the Bootstrap framework to give the page a polished look. Changed the unit
 **Link to work:**
 -   [Pokemon Go Raid Zones Commit](https://github.com/devNoiseConsulting/PokemonGoRaidZones/commit/76c9a272bd5f78a0feaa79ebbb57bfae0b1d9daf)
 
+### Round 3, Day 9: Jan 10, 2018
+
+**Today's Progress:** More tweaks to the Pokemon Go raid zones map and Udacity's Grow with Google Challenge Scholarship.
+
+**Thoughts:** Received some suggestions for tweaking the data. This lead to working on having multiple config files. Using symbolic links to change out the config files. Also needed to change the .gitignore to not include the real config files.
+
+Also found out that I got accepted into the Grow with Google Challenge Scholarship. Got started by joining the forum and slack. 
+
+**Link to work:**
+-   [Pokemon Go Raid Zones Commit](https://github.com/devNoiseConsulting/PokemonGoRaidZones/commit/ee6771ea365bc8fec2c25dd2036da12ea36e49f7)
+
 <!--
 
 ### Rouond 3, Day 0: Jan 1, 2018 (Example 1)
