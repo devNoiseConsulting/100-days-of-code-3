@@ -98,10 +98,19 @@ Added the Bootstrap framework to give the page a polished look. Changed the unit
 
 **Thoughts:** Received some suggestions for tweaking the data. This lead to working on having multiple config files. Using symbolic links to change out the config files. Also needed to change the .gitignore to not include the real config files.
 
-Also found out that I got accepted into the Grow with Google Challenge Scholarship. Got started by joining the forum and slack. 
+Also found out that I got accepted into the Grow with Google Challenge Scholarship. Got started by joining the forum and slack.
 
 **Link to work:**
 -   [Pokemon Go Raid Zones Commit](https://github.com/devNoiseConsulting/PokemonGoRaidZones/commit/ee6771ea365bc8fec2c25dd2036da12ea36e49f7)
+
+### Round 3, Day 10: Jan 11, 2018
+
+**Today's Progress:** More work Udacity's course work.
+
+**Thoughts:** Did some review work on the the Service Worker course that I worked on last year. Not having issues with the concepts, but getting the browser in to the state that will pass. Ran into some problems with [CacheStorage](https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage). Seems like a slight difference in browser implementation between Chrome and Firefox. In Chrome, a promise if always return when you call cache.match(). The promise will resolve to undefined in Chrome, which broke the MDN example code. Oddly, the example for [cache.match()](https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/match) fit in with Chrome's behavior. Replacing the cache when the service worker activates cause major headaches. Got the code running, but major issues with getting the browser state to be exactly what the quiz code wants. Will tackle it again tomorrow.
+
+**Link to work:**
+-   [Wittr repo](https://github.com/jakearchibald/wittr) - Don't really have any work to show as I keep blowing away my code for the next task.
 
 <!--
 
