@@ -112,6 +112,16 @@ Also found out that I got accepted into the Grow with Google Challenge Scholarsh
 **Link to work:**
 -   [Wittr repo](https://github.com/jakearchibald/wittr) - Don't really have any work to show as I keep blowing away my code for the next task.
 
+### Round 3, Day 11: Jan 12, 2018
+
+**Today's Progress:** Finished the Introducing the Service Worker course.
+
+**Thoughts:** Did some more sections that I had previously completed to refresh my memory on service workers. Screwed up the code for 3.21 which caused all of the caches for the service worker to be deleted. Took me a while to figure out what the bug was. After that I proceeded to pay closer attention to the code being discussed in the video. This definitely help to know what function/methods to call to complete the quiz.
+
+**Link to work:**
+-   [Wittr repo](https://github.com/jakearchibald/wittr) - Don't really have any work to show as I keep blowing away my code for the next task.
+-   [Service Worker activate error Gist](https://gist.github.com/devNoiseConsulting/f856c42f3da77364a7b080cbf0c22660)
+
 <!--
 
 ### Rouond 3, Day 0: Jan 1, 2018 (Example 1)
