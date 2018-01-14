@@ -122,6 +122,18 @@ Also found out that I got accepted into the Grow with Google Challenge Scholarsh
 -   [Wittr repo](https://github.com/jakearchibald/wittr) - Don't really have any work to show as I keep blowing away my code for the next task.
 -   [Service Worker activate error Gist](https://gist.github.com/devNoiseConsulting/f856c42f3da77364a7b080cbf0c22660)
 
+### Round 3, Day 12: Jan 13, 2018
+
+**Today's Progress:** Started IndexedDB and Caching course.
+
+**Thoughts:**
+IndexDB API has functions/methods with value:key instead of the usual key:value parameters.
+Couldn't see the IndexDB that I created in the Application tab of the dev tools. Page refresh didn't do anything. Had to "Refresh IndexDB" manually to see my data.
+
+**Link to work:**
+-   [Wittr repo](https://github.com/jakearchibald/wittr) - Don't really have any work to show as I keep blowing away my code for the next task.
+
+
 <!--
 
 ### Rouond 3, Day 0: Jan 1, 2018 (Example 1)
