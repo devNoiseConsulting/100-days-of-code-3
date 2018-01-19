@@ -133,6 +133,50 @@ Couldn't see the IndexDB that I created in the Application tab of the dev tools.
 **Link to work:**
 -   [Wittr repo](https://github.com/jakearchibald/wittr) - Don't really have any work to show as I keep blowing away my code for the next task.
 
+### Round 3, Day X: Jan 14, 2018
+
+**Today's Progress:** Working on IndexedDB and Caching course.
+
+**Thoughts:** I don't think I really got my hour in, so I'm not counting it. Can't seem to get past part 7 in the IndexedDB and Caching course. Understand what needs to be done, but doesn't seem to work.
+
+**Link to work:**
+-   [Wittr repo](https://github.com/jakearchibald/wittr) - Don't really have any work to show as I keep blowing away my code for the next task.
+
+### Round 3, Day 13: Jan 15, 2018
+
+**Today's Progress:** Working IndexedDB and Caching course.
+
+**Thoughts:** Finally got past part 7 in the IndexedDB and Caching course. Quite possibly, I had working code, but didn't bump the service worker to create a new cache.
+
+**Link to work:**
+-   [Wittr repo](https://github.com/jakearchibald/wittr) - Don't really have any work to show as I keep blowing away my code for the next task.
+
+### Round 3, Day 14: Jan 16, 2018
+
+**Today's Progress:** Finished IndexedDB and Caching course.
+
+**Thoughts:**
+
+**Link to work:**
+-   [Wittr repo](https://github.com/jakearchibald/wittr) - Don't really have any work to show as I keep blowing away my code for the next task.
+
+### Round 3, Day 15: Jan 17, 2018
+
+**Today's Progress:** Finished Lesson 6: Syntax  and started Lesson 7: Functions for #GoogleUdacityScholars
+
+**Thoughts:** This is mostly a review for me as I mastered most this completing the Front End Development Certification at freeCodeCamp. Getting people up to speed on the new syntax of ES6/ES2015. I'm clearly convinced that lessons 6-9 should have been before lesson 2. While I think that progressive web apps are important to learn, they really threw all the candidates into the deep end by making that first.
+
+**Link to work:**
+-   [Grow with Google Challenge Scholarship: Mobile Web](https://classroom.udacity.com/courses/ud899-gwg)
+
+### Round 3, Day 16: Jan 18, 2018
+
+**Today's Progress:** Finished Lesson 7: Functions for #GoogleUdacityScholars
+
+**Thoughts:** Arrow functions, default parameters and classes. Again mostly a review for me as I mastered most this completing the Front End Development Certification at freeCodeCamp. Will admit that I didn't get all the answers right. Mostly due to me not reading the code closely enough to catch the errors. 
+
+**Link to work:**
+-   [Grow with Google Challenge Scholarship: Mobile Web](https://classroom.udacity.com/courses/ud899-gwg)
 
 <!--
 
