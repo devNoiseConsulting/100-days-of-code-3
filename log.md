@@ -173,10 +173,20 @@ Couldn't see the IndexDB that I created in the Application tab of the dev tools.
 
 **Today's Progress:** Finished Lesson 7: Functions for #GoogleUdacityScholars
 
-**Thoughts:** Arrow functions, default parameters and classes. Again mostly a review for me as I mastered most this completing the Front End Development Certification at freeCodeCamp. Will admit that I didn't get all the answers right. Mostly due to me not reading the code closely enough to catch the errors. 
+**Thoughts:** Arrow functions, default parameters and classes. Again mostly a review for me as I mastered most this completing the Front End Development Certification at freeCodeCamp. Will admit that I didn't get all the answers right. Mostly due to me not reading the code closely enough to catch the errors.
 
 **Link to work:**
 -   [Grow with Google Challenge Scholarship: Mobile Web](https://classroom.udacity.com/courses/ud899-gwg)
+
+### Round 3, Day 17: Jan 19, 2018
+
+**Today's Progress:** Started Lesson 8: Built-ins for #GoogleUdacityScholars and some scripts for Pokemon Go Points of Interest.
+
+**Thoughts:** Spent some time working on my Udacity course looking at the JavaScript Symbols builtin. I generally understand it, but not sure where I would use it. Decided to shift gears and work on getting some data for Pokemon Go points of interest. Grabbed a punch of portal data from Ingress. Wrote a script to filter the points into the raid zones used for the Montco/ChesCo discord server. Also worked on a script that would help identify hot spots or area with a high density of points.
+
+**Link to work:**
+-   [Grow with Google Challenge Scholarship: Mobile Web](https://classroom.udacity.com/courses/ud899-gwg)
+-   [PokemonGoGIS](https://github.com/devNoiseConsulting/PokemonGoGIS)
 
 <!--
 
