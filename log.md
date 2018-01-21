@@ -188,6 +188,15 @@ Couldn't see the IndexDB that I created in the Application tab of the dev tools.
 -   [Grow with Google Challenge Scholarship: Mobile Web](https://classroom.udacity.com/courses/ud899-gwg)
 -   [PokemonGoGIS](https://github.com/devNoiseConsulting/PokemonGoGIS)
 
+### Round 3, Day 18: Jan 20, 2018
+
+**Today's Progress:** Finished Lesson 8: Built-ins for #GoogleUdacityScholars.
+
+**Thoughts:** 
+
+**Link to work:**
+-   [Grow with Google Challenge Scholarship: Mobile Web](https://classroom.udacity.com/courses/ud899-gwg)
+
 <!--
 
 ### Rouond 3, Day 0: Jan 1, 2018 (Example 1)
