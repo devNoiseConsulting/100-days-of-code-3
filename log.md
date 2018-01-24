@@ -197,6 +197,34 @@ Couldn't see the IndexDB that I created in the Application tab of the dev tools.
 **Link to work:**
 -   [Grow with Google Challenge Scholarship: Mobile Web](https://classroom.udacity.com/courses/ud899-gwg)
 
+### Round 3, Day 19: Jan 21, 2018
+
+**Today's Progress:** Finished Lesson 9: Professional Developer-fu for #GoogleUdacityScholars.
+
+**Thoughts:**
+
+**Link to work:**
+-   [Grow with Google Challenge Scholarship: Mobile Web](https://classroom.udacity.com/courses/ud899-gwg)
+
+### Round 3, Day 20: Jan 22, 2018
+
+**Today's Progress:** More work on my Pokemon Go Raid zones
+
+**Thoughts:** Added gym markers, but some reason LeafletJS and ParceljJS aren't playing nice. To get markers working, I couldn't use the default marker because the URL for the marker image breaks. Created an Icon object that pointed to image file in the dist folder. Also needed to edit the Javascript file in the dist folder for the production build.
+
+**Link to work:**
+-   [PokemonGoRaidZones Commits](https://github.com/devNoiseConsulting/PokemonGoRaidZones/commit/d74042bd45a07e25e28956ce43c91726c18a835a)
+-   [PokemonGoGIS Commits](https://github.com/devNoiseConsulting/PokemonGoGIS/commit/94f6ea6dd5afbe263ce7d65627803f97eb50f88e)
+
+### Round 3, Day 21: Jan 23, 2018
+
+**Today's Progress:** Started Udacity's JavaScript Promises Course.
+
+**Thoughts:** Completed Lesson 1: Creating Promises.
+
+**Link to work:**
+-   [JavaScript Promises Course](https://classroom.udacity.com/courses/ud898)
+
 <!--
 
 ### Rouond 3, Day 0: Jan 1, 2018 (Example 1)
