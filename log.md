@@ -192,7 +192,7 @@ Couldn't see the IndexDB that I created in the Application tab of the dev tools.
 
 **Today's Progress:** Finished Lesson 8: Built-ins for #GoogleUdacityScholars.
 
-**Thoughts:** 
+**Thoughts:**
 
 **Link to work:**
 -   [Grow with Google Challenge Scholarship: Mobile Web](https://classroom.udacity.com/courses/ud899-gwg)
@@ -213,8 +213,8 @@ Couldn't see the IndexDB that I created in the Application tab of the dev tools.
 **Thoughts:** Added gym markers, but some reason LeafletJS and ParceljJS aren't playing nice. To get markers working, I couldn't use the default marker because the URL for the marker image breaks. Created an Icon object that pointed to image file in the dist folder. Also needed to edit the Javascript file in the dist folder for the production build.
 
 **Link to work:**
--   [PokemonGoRaidZones Commits](https://github.com/devNoiseConsulting/PokemonGoRaidZones/commit/d74042bd45a07e25e28956ce43c91726c18a835a)
--   [PokemonGoGIS Commits](https://github.com/devNoiseConsulting/PokemonGoGIS/commit/94f6ea6dd5afbe263ce7d65627803f97eb50f88e)
+-   [PokemonGoRaidZones Commit](https://github.com/devNoiseConsulting/PokemonGoRaidZones/commit/d74042bd45a07e25e28956ce43c91726c18a835a)
+-   [PokemonGoGIS Commit](https://github.com/devNoiseConsulting/PokemonGoGIS/commit/94f6ea6dd5afbe263ce7d65627803f97eb50f88e)
 
 ### Round 3, Day 21: Jan 23, 2018
 
@@ -224,6 +224,25 @@ Couldn't see the IndexDB that I created in the Application tab of the dev tools.
 
 **Link to work:**
 -   [JavaScript Promises Course](https://classroom.udacity.com/courses/ud898)
+
+### Round 3, Day 22: Jan 24, 2018
+
+**Today's Progress:** Completed Udacity's JavaScript Promises Course and tweaking my Pokemon Go Raid zones map.
+
+**Thoughts:** Completed Lesson 2: Chaining Promises. Realized my Pokemon Go Raid zones was not really mobile friendly so added viewport info to the HTML. Also found Bootstrap.native so I wouldn't have to include jQuery to make the Bootstrap components work.
+
+**Link to work:**
+-   [JavaScript Promises Course](https://classroom.udacity.com/courses/ud898)
+-   [PokemonGoRaidZones Commit](https://github.com/devNoiseConsulting/PokemonGoRaidZones/commit/09154de8029a5a51074ff3dc72f5f696e6c4b7a6)
+
+### Round 3, Day 23: Jan 26, 2018
+
+**Today's Progress:** More coding on my Pokemon Go Raid zones map.
+
+**Thoughts:** Writing code to write code. So maybe not the best plan, but I put all the gym data points into the code. On the plus side it is in a separate code file that I can import. Thus I just need to update the file for changes and no round trips to the server to get data. Initially, I used some regex in Atom to format the code and pasted it into my module file. Today I wrote a script that will generate the module file from a .csv source file.
+
+**Link to work:**
+-   [PokemonGoRaidZones Commit](https://github.com/devNoiseConsulting/PokemonGoRaidZones/commit/b9a290dae808ea436cb08082f6ba64e7a7561783)
 
 <!--
 
