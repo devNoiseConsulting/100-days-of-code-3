@@ -244,6 +244,23 @@ Couldn't see the IndexDB that I created in the Application tab of the dev tools.
 **Link to work:**
 -   [PokemonGoRaidZones Commit](https://github.com/devNoiseConsulting/PokemonGoRaidZones/commit/b9a290dae808ea436cb08082f6ba64e7a7561783)
 
+### Round 3, Day 24: Jan 27, 2018
+
+**Today's Progress:** Started working on a Discord bot.
+
+**Thoughts:** Trying to figure out how to create a Discord bot. Mostly looking through a tutorial, but also setting up the app/bot with Discord and getting some code to run.
+
+**Link to work:**
+-   [MegoBot commit](https://github.com/devNoiseConsulting/MegaBot/commit/3d2d5a80cdaf5ad2b4bba4c014ca019e7b455cbc)
+
+### Round 3, Day 25: Jan 28, 2018
+
+**Today's Progress:** 
+
+**Thoughts:**
+
+**Link to work:**
+-   []()
 <!--
 
 ### Rouond 3, Day 0: Jan 1, 2018 (Example 1)
