@@ -251,16 +251,17 @@ Couldn't see the IndexDB that I created in the Application tab of the dev tools.
 **Thoughts:** Trying to figure out how to create a Discord bot. Mostly looking through a tutorial, but also setting up the app/bot with Discord and getting some code to run.
 
 **Link to work:**
--   [MegoBot commit](https://github.com/devNoiseConsulting/MegaBot/commit/3d2d5a80cdaf5ad2b4bba4c014ca019e7b455cbc)
+-   [MegaBot commit](https://github.com/devNoiseConsulting/MegaBot/commit/3d2d5a80cdaf5ad2b4bba4c014ca019e7b455cbc)
 
 ### Round 3, Day 25: Jan 28, 2018
 
-**Today's Progress:** 
+**Today's Progress:** More work on Discord bot.
 
-**Thoughts:**
+**Thoughts:** Getting more commands into the bot. Looking at some code from the bot used on the MontCo/ChesCo Raids Discord server. They used Eris as they framework to talk to the Discord server. I'm using discord.js, so I'm porting some commands over. The bot's permissions are not setup correctly to handle role assignment. Ignored that and focused on the "Unhandled Promise Rejection" warning. Converting the code to make more use of Promises so the error goes away. Then worked on making the code into a better module for some code reuse.
 
 **Link to work:**
--   []()
+-   [MegaBot commit](https://github.com/devNoiseConsulting/MegaBot/commit/0c549263f99a71575db528a326fb869028ab73cf)
+
 <!--
 
 ### Rouond 3, Day 0: Jan 1, 2018 (Example 1)
