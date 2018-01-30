@@ -262,6 +262,17 @@ Couldn't see the IndexDB that I created in the Application tab of the dev tools.
 **Link to work:**
 -   [MegaBot commit](https://github.com/devNoiseConsulting/MegaBot/commit/0c549263f99a71575db528a326fb869028ab73cf)
 
+### Round 3, Day 26: Jan 29, 2018
+
+**Today's Progress:** Discord bot is assigning roles and clearing messages.
+
+**Thoughts:** Code looked good, but ran into `DiscordAPIError: Missing Permissions` or  `DiscordAPIError: Missing Access` errors when the bot tried to assign a new role. Was using permission calculators to give the bot the permissions, but still didn't work. Ended on Reddit to see if I could get some help. Turns out the solution was to reorder the roles on the server so that the bot was higher. The /r/Discord_Bots linked me to a different tutorial and started to use their shell for my bot. So I started working on the nest feature which will store users input to a sqlite file and then create a message based off of the data in sqlite.
+
+**Link to work:**
+-   [Plea for help](https://www.reddit.com/r/Discord_Bots/comments/7ttd58/get_missing_permissions_when_trying_to_add_a_role/)
+-   [MegaBot commit - Team Assignment](https://github.com/devNoiseConsulting/MegaBot/commit/03bd8678fed55346a1419f734bf0a7ecc8deddd0)
+-   [MegaBot commit - Nest List](https://github.com/devNoiseConsulting/MegaBot/commit/1a0ab1f89005a0c73e122ac14e13644cdb00a499)
+
 <!--
 
 ### Rouond 3, Day 0: Jan 1, 2018 (Example 1)
