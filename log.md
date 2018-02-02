@@ -273,6 +273,38 @@ Couldn't see the IndexDB that I created in the Application tab of the dev tools.
 -   [MegaBot commit - Team Assignment](https://github.com/devNoiseConsulting/MegaBot/commit/03bd8678fed55346a1419f734bf0a7ecc8deddd0)
 -   [MegaBot commit - Nest List](https://github.com/devNoiseConsulting/MegaBot/commit/1a0ab1f89005a0c73e122ac14e13644cdb00a499)
 
+### Round 3, Day 27: Jan 30, 2018
+
+**Today's Progress:** MegaBot command fix and merge. Contributing to variadic.js
+
+**Thoughts:** Seems like the test bot I wrote may become the new bot for the MontCo/ChesCo Raids Discord server. Changed the assignTeam function to remove old team rolls. Received a pull request from one of the bot coders.
+Looking to collaborate on a side project for the Grow with Google Challenge Scholarship. Started to help out on the variadic.js project. Took the standard deviation task/issue. Cribbing some notes from Wikipedia on the process and wrote some ES5 code to get it done. Then the real work was to get the Jasmine test working. Started with a copy from another test and started tweaking the test. Had to change some of the test data so I would cause all of the errors to be thrown. Checked it in and made a pull request.
+
+**Link to work:**
+-   [MegaBot commit - Remove old teams](https://github.com/devNoiseConsulting/MegaBot/commit/f8e936e10f0451dc869fef591e72932ca45a6630)
+-   [MegaBot merge](https://github.com/devNoiseConsulting/MegaBot/commit/52296c24496bcab9b3d0fee9519da2450e8f986c)
+-   [variadic.js commit - Standard Deviations](https://github.com/devNoiseConsulting/variadic.js/commit/2b4465e0d8dcca3087cf93366311dac5897cbf93)
+-   [variadic.js Pull Request](https://github.com/variadicjs/variadic.js/pull/39)
+
+### Round 3, Day 28: Jan 31, 2018
+
+**Today's Progress:**
+
+**Thoughts:** Worked on variance math functions for variadic.js. Which includes writing tests and making pull requests.
+
+**Link to work:**
+-   [variadic.js commit - Standard Deviations](https://github.com/devNoiseConsulting/variadic.js/commit/2b4465e0d8dcca3087cf93366311dac5897cbf93)
+-   [variadic.js Pull Request](https://github.com/variadicjs/variadic.js/pull/39)
+
+### Round 3, Day 29: Feb 1, 2018
+
+**Today's Progress:** Enhancing the nest command on MegaBot
+
+**Thoughts:** Working through what features the nest command needs. Refactored the code a bit to extract code that would be common to the sub commands. That ended up being the clear messages and post new nest list. To avoid a load of promise chaining, I used the async/await feature. Mostly used on the delete messages as I didn't want to have the new nest list posted and getting deleted.
+
+**Link to work:**
+-   [MegaBot commit - Nest and more linting commit](https://github.com/devNoiseConsulting/MegaBot/commit/f8e936e10f0451dc869fef591e72932ca45a6630)
+
 <!--
 
 ### Rouond 3, Day 0: Jan 1, 2018 (Example 1)
