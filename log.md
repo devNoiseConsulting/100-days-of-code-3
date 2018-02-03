@@ -305,6 +305,15 @@ Looking to collaborate on a side project for the Grow with Google Challenge Scho
 **Link to work:**
 -   [MegaBot commit - Nest and more linting commit](https://github.com/devNoiseConsulting/MegaBot/commit/f8e936e10f0451dc869fef591e72932ca45a6630)
 
+### Round 3, Day 30: Feb 2, 2018
+
+**Today's Progress:** Started working on Wes Bos's CSS Grid class.
+
+**Thoughts:** Was meaning to start this earlier, but had other coding projects take my time since this launched. From what I've seen this looks like a nice way to layout web pages. Wonder how this replaces or works with Flexbox.
+
+**Link to work:**
+-   [CSS Grid class](https://cssgrid.io/)
+
 <!--
 
 ### Rouond 3, Day 0: Jan 1, 2018 (Example 1)
