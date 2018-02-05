@@ -314,6 +314,24 @@ Looking to collaborate on a side project for the Grow with Google Challenge Scho
 **Link to work:**
 -   [CSS Grid class](https://cssgrid.io/)
 
+### Round 3, Day 31: Feb 3, 2018
+
+**Today's Progress:** More work on Wes Bos's CSS Grid class.
+
+**Thoughts:** Doing my bare minimum hour this weekend. CSS Grid seems to be pretty nice.
+
+**Link to work:**
+-   [CSS Grid class](https://cssgrid.io/)
+
+### Round 3, Day 32: Feb 4, 2018
+
+**Today's Progress:** More work on Wes Bos's CSS Grid class.
+
+**Thoughts:** Got my hour in and that's about it. Seeing lots of good stuff with CSS Grid. Think this might make responsive design a lot easier. May not need to rely on CSS frameworks as much.
+
+**Link to work:**
+-   [CSS Grid class](https://cssgrid.io/)
+
 <!--
 
 ### Rouond 3, Day 0: Jan 1, 2018 (Example 1)
