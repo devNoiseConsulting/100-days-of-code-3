@@ -365,6 +365,18 @@ Looking to collaborate on a side project for the Grow with Google Challenge Scho
 -   [Angular with Routing, NFL SPA](https://stackblitz.com/edit/angular-7qarzy)
 -   [Angular with Routing and Data, NFL SPA](https://stackblitz.com/edit/angular-nsyl3y)
 
+### Round 3, Day 36: Feb 8, 2018
+
+**Today's Progress:** Fixed code so jasmine is happy and making S2 cells for Pokemon Go Raid zones map.
+
+**Thoughts:** Getting back to my Factorial function and trying to figure what's wrong with line 12. No real indication of what it didn't like, just a line number. I want my 100%! So I took a closer look at the code and realized that the ternary operator wasn't needed at all and I could simplify the logic. Getting rid of the ternary operator got rid of my uncovered line of code. Committed and made a pull request.
+
+**Link to work:**
+-   [variadic.js commit - Factorial](https://github.com/devNoiseConsulting/variadic.js/commit/1ef8d677bb9b333150e20960bf4d377fa7c4716e)
+-   [variadic.js Pull Request](https://github.com/variadicjs/variadic.js/pull/59)
+-   [PokemonGoGIS commit](https://github.com/devNoiseConsulting/PokemonGoGIS/commit/d9331bad5b551b30eec47d36b0e41122edf7b531)
+-   [PokemonGoRaidZones commit](https://github.com/devNoiseConsulting/PokemonGoRaidZones/commit/06f7bdfcea39537b6766d9a5508e807023088156)
+
 <!--
 
 ### Rouond 3, Day 0: Jan 1, 2018 (Example 1)
