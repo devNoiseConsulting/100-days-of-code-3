@@ -332,6 +332,39 @@ Looking to collaborate on a side project for the Grow with Google Challenge Scho
 **Link to work:**
 -   [CSS Grid class](https://cssgrid.io/)
 
+### Round 3, Day 33: Feb 5, 2018
+
+**Today's Progress:** Working on exercises for Wes Bos's CSS Grid class.
+
+**Thoughts:** Getting to the last third of the course. I have been working along with the videos to make a similar page, Now the course is switching to having me pause the video and attempt a solution. Getting close, but still need help to complete them. I'm not baffled by the solution, but I'm forgetting pieces of CSS Grid.
+
+**Link to work:**
+-   [CSS Grid class](https://cssgrid.io/)
+
+### Round 3, Day 34: Feb 6, 2018
+
+**Today's Progress:** Working on a factorial function to variadic.js
+
+**Thoughts:** Saw an issue come up requesting a factorial function and assigned it to myself. Found an answer on Stack Overflow that was close what we needed. Converted it into the module form that we needed. Turns out by 19!, the code is generating a number bigger than `Number.MAX_SAFE_INTEGER`. Added a comment to the issue to get some input from the other team members.
+
+**Link to work:**
+-   [variadic.js commit - Factorial](https://github.com/devNoiseConsulting/variadic.js/commit/7ee074f928b4858ecbb32633b98b9af7c00f8838)
+
+### Round 3, Day 35: Feb 7, 2018
+
+**Today's Progress:** Working on test spec for variadic.js and Philly.net meeting.
+
+**Thoughts:** Got some feedback on the factorial issues and moved ahead with writing the test specs. Ideally, I should write the test first, but I tend to jump into getting working code. Tests are all passing, just have an issue with uncovered lines of code. Not sure what the issue is. Also attend a Philly.net meeting that did a basic overview of React, Angular, and Vue.js. Forked some projects and followed along making the code changes to see how things worked.
+
+**Link to work:**
+-   [variadic.js commit - Factorial](https://github.com/devNoiseConsulting/variadic.js/commit/1ef8d677bb9b333150e20960bf4d377fa7c4716e)
+-   [React with Routing, NFL SPA](https://codesandbox.io/s/8y0k3vxyo8)
+-   [React with Routing and Data, NFL SPA](https://codesandbox.io/s/n4r7q42xn4)
+-   [Vue with Routing, NFL SPA](https://codesandbox.io/s/71ww71k6k0)
+-   [Vue with Routing and Data, NFL SPA](https://codesandbox.io/s/8kvqx09nzj)
+-   [Angular with Routing, NFL SPA](https://stackblitz.com/edit/angular-7qarzy)
+-   [Angular with Routing and Data, NFL SPA](https://stackblitz.com/edit/angular-nsyl3y)
+
 <!--
 
 ### Rouond 3, Day 0: Jan 1, 2018 (Example 1)
