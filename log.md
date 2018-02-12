@@ -377,6 +377,34 @@ Looking to collaborate on a side project for the Grow with Google Challenge Scho
 -   [PokemonGoGIS commit](https://github.com/devNoiseConsulting/PokemonGoGIS/commit/d9331bad5b551b30eec47d36b0e41122edf7b531)
 -   [PokemonGoRaidZones commit](https://github.com/devNoiseConsulting/PokemonGoRaidZones/commit/06f7bdfcea39537b6766d9a5508e807023088156)
 
+### Round 3, Day 37: Feb 9, 2018
+
+**Today's Progress:** Fixed a coding style problem in variadic.js and getting more S2 neighbor cells for Pokemon Go Raid zones map.
+
+**Thoughts:**
+
+**Link to work:**
+-   [variadic.js commit - Factorial](https://github.com/devNoiseConsulting/variadic.js/commit/faf5e2df13791abb6924a35daa97002a4f295d18)
+-   [PokemonGoGIS commit](https://github.com/devNoiseConsulting/PokemonGoGIS/commit/0177d97f972f25bc0ebab28b10c1509d215a4447)
+
+### Round 3, Day 38: Feb 10, 2018
+
+**Today's Progress:** More work on Wes Bos's CSS Grid class.
+
+**Thoughts:** Doing my bare minimum hour this weekend. Looked a bit at how flexbox and css grid can and can't do similar things.
+
+**Link to work:**
+-   [CSS Grid class](https://cssgrid.io/)
+
+### Round 3, Day 39: Feb 11, 2018
+
+**Today's Progress:** Trying to get Raspbian setup.
+
+**Thoughts:** More work on getting Raspbian setup on an SD card multiple partitions. Would like a second partition that is FAT32 for making it easy to load videos onto the SD card without having to use scp or ftp. Lots of failed attempts using NOOBS or trying to use fdisk to resize/shink the parition and create a new one. NOOBS didn't like that I removed OSs from the SD card to make a new parition. Shinking the partition resulted in a kernel panic.
+
+**Link to work:**
+-   [Pi Notes Gist](https://gist.github.com/devNoiseConsulting/4e97be9aedc0ca0c5509dd891014f285)
+
 <!--
 
 ### Rouond 3, Day 0: Jan 1, 2018 (Example 1)
