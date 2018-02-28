@@ -405,6 +405,114 @@ Looking to collaborate on a side project for the Grow with Google Challenge Scho
 **Link to work:**
 -   [Pi Notes Gist](https://gist.github.com/devNoiseConsulting/4e97be9aedc0ca0c5509dd891014f285)
 
+### Round 3, Day XX: Feb 12, 2018 - Feb 18, 2018
+**Today's Progress:** No progress.
+
+**Thoughts:** Working on a Raspberry Pi project that I'm going to be paid for. So a lot of my time shouldn't count toward my hour of code. With that disclosed, I'm not being paid a fair wage for the time I've sunk into this project.
+
+Also I went on vacation for a couple days. I tried to code, but didn't really get the time in. More rides! Single rider line forever!
+
+### Round 3, Day 40: Feb 16, 2018
+**Today's Progress:** Starting UI improvements to myGeoBeerMap
+
+**Thoughts:** First try at moving some buttons into a navber dropdown.
+
+**Link to work:**
+-   [myGeoBeerMap commit - Add dropdown to nav](https://github.com/devNoiseConsulting/myGeoBeerMap/commit/83a42673db5b3bd4f981b1165e5fcbb1f44d2858)
+
+### Round 3, Day 41: Feb 19, 2018
+**Today's Progress:** Daily Programmer is active again.
+
+**Thoughts:** While I was on vacation, the person who ran the #daily_programmer started posted challenges again. Made use of some ES6 array features to complete the task. Wrote a second solution stream lined the code a faction.
+
+**Link to work:**
+-   [Number Diamond - PhillyDev Slack #daily_programmer](https://gist.github.com/devNoiseConsulting/aa9e4ee1d2c202df58daecffa637b9fd)
+
+### Round 3, Day 42: Feb 20, 2018
+**Today's Progress:** More Daily Programmer.
+
+**Thoughts:** The concept of today's challenge was good, the execute was a bit of a pain. Since the input consisted of `\`, I had to work around the fact the JavaScript would escape half of my `\`s. This also broke the code and the input had an odd number of `\`s. Wrote three solutions for this. The second was really just a big chaining of the first solution. The third solution was based off of an answer that someone else gave. My solution made use of template literals but the `' '.repeat(i)` was totally from the other answer.
+
+**Link to work:**
+-   [Draw Doodle - PhillyDev Slack #daily_programmer - 20180220](https://gist.github.com/devNoiseConsulting/7c1c03e92e2063b7bde14e27504acb88)
+
+### Round 3, Day 43: Feb 21, 2018
+**Today's Progress:** A bit more of the same Daily Programmer
+
+**Thoughts:** A challenge similar to yesterday's but the now we have `/` in the input. This means the amount of padding could decrease as well. Took my third solution from yesterday and adding in the logic to change the amount of padding. Also just gave up on the input and manually escaped all the `\`s in the input strings.
+
+**Link to work:**
+-   [Draw Doodle II - PhillyDev Slack #daily_programmer](https://gist.github.com/devNoiseConsulting/23b528e9da503f65eb4b3f931b056b60)
+
+### Round 3, Day 44: Feb 22, 2018
+**Today's Progress:** Daily Programmer Fail.
+
+**Thoughts:** This one kicked my butt. I had code that was similar from a challenge last year, but I couldn't make it work. Something was wrong with the logic on determine what direction the code should move through the 2D array. I had to give up. Note link to my work is the working solution. Stay tuned
+
+**Link to work:**
+-   [Alphabet Spiral- PhillyDev Slack #daily_programmer](https://gist.github.com/devNoiseConsulting/b9fbe56413c577d72fcffd1acc576cb5)
+
+### Round 3, Day 45: Feb 23, 2018
+**Today's Progress:** Daily Programmer Success.
+
+**Thoughts:** Continued to work on the previous day's challenge. Ended up switching over to multiple loops so the code moved through the 2D array correctly.
+
+**Link to work:**
+-   [Alphabet Spiral- PhillyDev Slack #daily_programmer](https://gist.github.com/devNoiseConsulting/b9fbe56413c577d72fcffd1acc576cb5)
+
+### Round 3, Day 46: Feb 24, 2018
+**Today's Progress:** Trying to migrate myGeoBeerMap to a Parcel.JS build
+
+**Thoughts:** Parcel.JS is working fine for my PokemonGoRaidZones map. Thought I'd make the change from Gulp.JS since I getting some errors with recent updates to Gulp.JS. Also worked on the navbar dropdown.
+
+**Link to work:**
+-   [myGeoBeerMap commit - Parcel.js Build and navber changes](https://github.com/devNoiseConsulting/myGeoBeerMap/commit/f0d9fffd2488757080949f1898db9f101135ab08#diff-b9cfc7f2cdf78a7f4b91a753d10865a2)
+
+### Round 3, Day 47: Feb 25, 2018
+**Today's Progress:** Trying to get myGeoBeerMap to work.
+
+**Thoughts:** Still running into problems with the Parcel.JS build for myGeoBeerMap. Code builds without errors, but no data is loaded onto the map. The Javascript used a fetch call to get the data from a .geojson file. The data file doesn't make into the dist folder. Tried making changes to package.json so that a script would copy it into the dist folder. Unfortunately, the Parcel.JS dev server redirects all call it doesn't know about to index.html. So even though it's in dist, the server won't give it to me.
+
+**Link to work:**
+-   [myGeoBeerMap commit - Attempt to include geoJSON data](https://github.com/devNoiseConsulting/myGeoBeerMap/commit/b8d68d7a523c002f3838623f66561cef624d0952)
+
+### Round 3, Day 48: Feb 26, 2018
+**Today's Progress:** Adding polygon zones to the PokemonGoRaidZones map and daily progammer challenge.
+
+**Thoughts:** My discord group is switching the bot that scan for us. We now have the option to plot out the zones instead of a radius around a LatLng point. A lot of the work on this doesn't count as its not coding, but I still spent more than my hour to get the polygons into the map and making changes to the map display.
+
+The daily programmer challenge was pretty quick. Needed to have a variable outside the scope of the reduce function. I would stuff the odd numbers in there and then add the reverse order to the accumulator array when have an even number. Made use of the spread operator to build an array that was concatted to the accumulator array.
+
+**Link to work:**
+-   [PokemonGoRaidZones
+ commit - Adding polygon zones.](https://github.com/devNoiseConsulting/PokemonGoRaidZones/commit/77d8801bcccb53415d27af0a9e7780b17062bff7)
+-   [Reverse Odd Runs - PhillyDev Slack #daily_programmer](https://gist.github.com/devNoiseConsulting/c5ac3aeaa1f14f03f61fa0ba24899497)
+
+### Round 3, Day 49: Feb 27, 2018
+**Today's Progress:** Trying to get myGeoBeerMap to build for production
+
+**Thoughts:** While the code doesn't run, it does build for dev. Received an error when trying to build for production. Spend a lot of time trying to track this down and figure it out. End result from some searches was to downgrade Bootstrap to a beta version so everything is happy. Feel that Parcel.JS needs to update autoprefixer.
+
+***Errors***:
+`Node#moveTo was deprecated. Use Container#append.`
+`Unknown error from PostCSS plugin. Your current PostCSS version is 6.0.19, but autoprefixer uses 5.2.18. Perhaps this is  /Users/flynnmj/src/myGeoBeerMap/node_modules/bootstrap/dist/css/bootstrap.css:undefined:undefined: Unknown browser ma`
+
+`/Users/flynnmj/src/myGeoBeerMap/node_modules/bootstrap/dist/css/bootstrap.css:undefined:undefined: Unknown browser major`
+
+Also tried to get change the fetch call to get the data file from the production server. The network panel shows that it get the data, but it doesn't seem to make it to my code. Some sort of CORS issue I'm sure. Unfortunately, I can't seem to figure out what options I need to change to make it work.
+
+**Link to work:**
+-   [myGeoBeerMap commit - Downgrade BootStrap and change fetch](https://github.com/devNoiseConsulting/myGeoBeerMap/commit/178688353db5d211f7614bc407a79a48f75bc37b)
+
+
+### Round 3, Day 50: Feb 28, 2018
+**Today's Progress:**
+
+**Thoughts:**
+
+**Link to work:**
+-   [XXX commit - XXX](https://github.com/devNoiseConsulting/)
+
 <!--
 
 ### Rouond 3, Day 0: Jan 1, 2018 (Example 1)
