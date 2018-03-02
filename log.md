@@ -505,13 +505,21 @@ Also tried to get change the fetch call to get the data file from the production
 -   [myGeoBeerMap commit - Downgrade BootStrap and change fetch](https://github.com/devNoiseConsulting/myGeoBeerMap/commit/178688353db5d211f7614bc407a79a48f75bc37b)
 
 
-### Round 3, Day 50: Feb 28, 2018
-**Today's Progress:**
+### Round 3, Day XX: Feb 28, 2018
+**Today's Progress:** Getting caught up on my log.
 
-**Thoughts:**
+**Thoughts:** Had a bit of a lapse. Started coding but didn't log it. Got out of hand, but took the time to get the log back on track today.
 
 **Link to work:**
--   [XXX commit - XXX](https://github.com/devNoiseConsulting/)
+-   [100-days-of-code-3 commit - Days 40-49](https://github.com/devNoiseConsulting/100-days-of-code-3/commit/50a67b892a8fb742fbbc5bd9088f28a8f64c7317)
+
+### Round 3, Day 50: Mar 01, 2018
+**Today's Progress:** Trying to debug Parcel.JS build
+
+**Thoughts:** Create a new repo to see if I can duplicate the issue that I'm having. When I go to make a production build, I get an error (`Unknown browser major`). Bootstrap seem to be the insitagator, but seems like cssnano is the culprit. 
+
+**Link to work:**
+-   [parcel-bootstrap-test commit](https://github.com/devNoiseConsulting/parcel-bootstrap-test/commit/5c60a1d7ed4eb5711c93781cc5e6dd923ce6bde9)
 
 <!--
 
