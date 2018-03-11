@@ -477,7 +477,7 @@ Also I went on vacation for a couple days. I tried to code, but didn't really ge
 -   [myGeoBeerMap commit - Attempt to include geoJSON data](https://github.com/devNoiseConsulting/myGeoBeerMap/commit/b8d68d7a523c002f3838623f66561cef624d0952)
 
 ### Round 3, Day 48: Feb 26, 2018
-**Today's Progress:** Adding polygon zones to the PokemonGoRaidZones map and daily progammer challenge.
+**Today's Progress:** Adding polygon zones to the PokemonGoRaidZones map and daily programmer challenge.
 
 **Thoughts:** My discord group is switching the bot that scan for us. We now have the option to plot out the zones instead of a radius around a LatLng point. A lot of the work on this doesn't count as its not coding, but I still spent more than my hour to get the polygons into the map and making changes to the map display.
 
@@ -516,10 +516,87 @@ Also tried to get change the fetch call to get the data file from the production
 ### Round 3, Day 50: Mar 01, 2018
 **Today's Progress:** Trying to debug Parcel.JS build
 
-**Thoughts:** Create a new repo to see if I can duplicate the issue that I'm having. When I go to make a production build, I get an error (`Unknown browser major`). Bootstrap seem to be the insitagator, but seems like cssnano is the culprit. 
+**Thoughts:** Create a new repo to see if I can duplicate the issue that I'm having. When I go to make a production build, I get an error (`Unknown browser major`). Bootstrap seem to be the instigator, but seems like cssnano is the culprit.
 
 **Link to work:**
 -   [parcel-bootstrap-test commit](https://github.com/devNoiseConsulting/parcel-bootstrap-test/commit/5c60a1d7ed4eb5711c93781cc5e6dd923ce6bde9)
+
+### Round 3, Day 51: Mar 02, 2018
+**Today's Progress:** More navbar changes for myGeoBeerMap.
+
+**Thoughts:** Making more changes to the UI for better mobile experience. Unfortunately parcel.js breaks are making this hard to verify. May look into using webpack for this project.
+
+**Link to work:**
+-   [myGeoBeerMap commit](https://github.com/devNoiseConsulting/myGeoBeerMap/commit/a65bc7a12aa48fa841d009da43bc4b60dd7d7d87)
+
+### Round 3, Day 52: Mar 03, 2018
+**Today's Progress:** Started Udacity's Web Tooling & Automation course
+
+**Thoughts:** Discouraged by issues with Parcel.JS. I'm looking into doing some course work to step back from my projects.
+
+**Link to work:**
+-   [Web Tooling & Automation](https://www.udacity.com/course/web-tooling-automation--ud892)
+
+### Round 3, Day 53: Mar 04, 2018
+**Today's Progress:** Continued Udacity's Web Tooling & Automation course
+
+**Thoughts:** Just squeezing an hour in today. Unfortunately, this course seems a little dated. While Sublime is a decent editor, it seems like the dev community has moved on to VSCode or Atom. Gulp is a good build tool for JavaScript, but Webpack seems to have the mind share today.
+
+**Link to work:**
+-   [Web Tooling & Automation](https://www.udacity.com/course/web-tooling-automation--ud892)
+
+### Round 3, Day 54: Mar 05, 2018
+**Today's Progress:** Started Udacity's Intro to Progressive Web Apps
+
+**Thoughts:** Based off of some posts to the Grow with Google challenge slack, I decided to start the Intro to Progressive Web Apps course.
+
+**Link to work:**
+-   [Intro to Progressive Web Apps](https://www.udacity.com/course/intro-to-progressive-web-apps--ud811)
+
+### Round 3, Day 55: Mar 06, 2018
+**Today's Progress:** Continued Udacity's Intro to Progressive Web Apps
+
+**Thoughts:** Still on the basics, where we're trying to get the HTML and JavaScript into the App shell. This should allow us to handle caching parts of the app for future visits.
+
+**Link to work:**
+-   [Intro to Progressive Web Apps](https://www.udacity.com/course/intro-to-progressive-web-apps--ud811)
+
+### Round 3, Day 56: Mar 07, 2018
+**Today's Progress:** Nuking it from Orbit
+
+**Thoughts:** Doing a bit of devops today. Trying to figure out how to keep RocketMap running on a droplet. We probably need a bigger droplet. So I felt like things were not in a clean state when we restarted scripts. This lead me to writing a bash script that would:
+-   Kill all processes related to scanning.
+-   Restart the mysql database.
+-   Start both PoGoMap scripts.
+-   Start the PokeAlarm script.
+Added this script to cron so every morning we can start the day with a good clean state. Hopefully this will keep everything running during the day.
+
+**Link to work:**
+-   [XXX commit - XXX](https://github.com/devNoiseConsulting/)
+
+### Round 3, Day 57: Mar 08, 2018
+**Today's Progress:** Completed Lesson 1 for Udacity's Intro to Progressive Web Apps
+
+**Thoughts:** Finishing out the lesson with some browser storage. A bit frustrating to not see an instructor notes that were mentioned in the video. Was going to use Jake Archibald's [idb lib](https://github.com/jakearchibald/idb), but tooling on the code is non existent. Not sure how I could use it when I import the lib into my code. So I peaked at the solution and used [localForage](https://github.com/localForage/localForage) as well. I loaded the lib from a CDN and attempted with get it working without further peaking.
+
+**Link to work:**
+-   [Intro to Progressive Web Apps](https://www.udacity.com/course/intro-to-progressive-web-apps--ud811)
+
+### Round 3, Day 58: Mar 09, 2018
+**Today's Progress:** Started Lesson 2 for Udacity's Intro to Progressive Web Apps
+
+**Thoughts:** Moving into the service worker portion of Progressive Web Apps. Not very successful in getting code to work.
+
+**Link to work:**
+-   [Intro to Progressive Web Apps](https://www.udacity.com/course/intro-to-progressive-web-apps--ud811)
+
+### Round 3, Day 59: Mar 10, 2018
+**Today's Progress:** Falling down the JavaScript syntax hole.
+
+**Thoughts:** While trying to figure out some of my Parcel.JS build issues, I looked for some examples. Should I import everything in the index.js or do I load them in via script tags in index.html? My code is doing the latter and I'm trying to figure out if the former is better. Found a [GitHub repo](https://github.com/potato4d/parcel-examples) that has some Parcel.JS examples. So looking at the VanillaJS example I see a line `$('#root')...` in the javascript. I expect that to be jQuery syntax, but don't see jQuery being included. I try similar syntax to select a DOM element from the console and it works. This leaves me confused as I really haven't seen in any of the modern JavaScript course work I've taken.
+
+**Link to work:**
+-   [parcel-examples](https://github.com/potato4d/parcel-examples)
 
 <!--
 
