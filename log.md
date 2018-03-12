@@ -598,6 +598,14 @@ Added this script to cron so every morning we can start the day with a good clea
 **Link to work:**
 -   [parcel-examples](https://github.com/potato4d/parcel-examples)
 
+### Round 3, Day 60: Mar 11, 2018
+**Today's Progress:** Continuing Lesson 2 for Udacity's Intro to Progressive Web Apps
+
+**Thoughts:** Really trying to make my code work and not just copy the solution into my code. Getting lost in the details. On the install event, my code will pre fetch a list of URLs to cache. Also believe that my code will clear the cache on the activate event. The fetch event is all fubar. What I have been basing my work off of is the examples on Mozilla's Developer Network. I feel like I follow it, keep getting `undefined` as the cached response. Then the page breaks. Really feels like I need a check list to follow to make sure the browser is in the state I want it so I can test that the code is working.
+
+**Link to work:**
+-   [Intro to Progressive Web Apps](https://www.udacity.com/course/intro-to-progressive-web-apps--ud811)
+
 <!--
 
 ### Rouond 3, Day 0: Jan 1, 2018 (Example 1)
