@@ -520,6 +520,8 @@ Also tried to get change the fetch call to get the data file from the production
 
 **Link to work:**
 -   [parcel-bootstrap-test commit](https://github.com/devNoiseConsulting/parcel-bootstrap-test/commit/5c60a1d7ed4eb5711c93781cc5e6dd923ce6bde9)
+-   [parcel bug #645](https://github.com/parcel-bundler/parcel/issues/645)
+-   [cssnano bug #447](https://github.com/ben-eb/cssnano/issues/447)
 
 ### Round 3, Day 51: Mar 02, 2018
 **Today's Progress:** More navbar changes for myGeoBeerMap.
@@ -605,6 +607,129 @@ Added this script to cron so every morning we can start the day with a good clea
 
 **Link to work:**
 -   [Intro to Progressive Web Apps](https://www.udacity.com/course/intro-to-progressive-web-apps--ud811)
+
+### Round 3, Day 61: Mar 12, 2018
+**Today's Progress:** Nuking it from Orbit
+
+**Thoughts:** Seems like we have to many threads/workers running on the server. Sometimes a simple restart doesn't do the trick. The server runs out of memory to run the processes and a couple will be killed by the OS. Problem being that sometimes that ends up being one of the MySQL/MariaDB processes. Then the database is in a funky state where the processes are no longer connected. Thus I wrote a script to kill all the processes, restart the database and then get the processes running again.
+
+**Link to work:**
+-   [nukeItFromOrbit.sh gist](https://gist.github.com/devNoiseConsulting/a9b066141b007387bcb0327875e43bd9)
+
+### Round 3, Day 62: Mar 13, 2018
+**Today's Progress:** Completed Lesson 2 for Udacity's Intro to Progressive Web Apps
+
+**Thoughts:** I was bad and didn't keep notes on my thoughts.
+
+**Link to work:**
+-   [Intro to Progressive Web Apps](https://www.udacity.com/course/intro-to-progressive-web-apps--ud811)
+
+### Round 3, Day 63: Mar 14, 2018
+**Today's Progress:** Started Lesson 3 for Udacity's Intro to Progressive Web Apps
+
+**Thoughts:** I was bad and didn't keep notes on my thoughts.
+
+**Link to work:**
+-   [Intro to Progressive Web Apps](https://www.udacity.com/course/intro-to-progressive-web-apps--ud811)
+
+### Round 3, Day 64: Mar 15, 2018
+**Today's Progress:** Finished Lesson 3 for Udacity's Intro to Progressive Web Apps and started Lesson 6 for Udacity's Web Tooling & Automation
+
+**Thoughts:** I was bad and didn't keep notes on my thoughts. Though I recall that I found out that I still had a lesson to do in Web Tooling & Automation.
+
+**Link to work:**
+-   [Intro to Progressive Web Apps](https://www.udacity.com/course/intro-to-progressive-web-apps--ud811)
+-   [Web Tooling & Automation](https://www.udacity.com/course/web-tooling-automation--ud892)
+
+### Round 3, Day 65: Mar 16, 2018
+**Today's Progress:** Finished Lesson 6 for Udacity's Web Tooling & Automation
+
+**Thoughts:** I was bad and didn't keep notes on my thoughts.
+
+**Link to work:**
+-   [Web Tooling & Automation](https://www.udacity.com/course/web-tooling-automation--ud892)
+
+### Round 3, Day 66: Mar 21, 2018
+**Today's Progress:** Setting up myGeoBeerMapTest to test out Webpack 4.0 builds
+
+**Thoughts:** With Parcel.JS lettting me down for a production build. Started to look into the newwer features of Webpack 4. Reading some articles and getting a test repo setup.
+
+**Link to work:**
+-   [myGeoBeerMapTest
+ commit - Initial commit](https://github.com/devNoiseConsulting/myGeoBeerMapTest/commit/b2665e90a7ce52cc6259b1f3a41981e9c0c8ea25)
+
+### Round 3, Day 69: Mar 22, 2018
+**Today's Progress:** More testing out Webpack 4.0 builds on myGeoBeerMapTest
+
+**Thoughts:** Getting webpack installed and trying to get the project running.
+
+**Link to work:**
+-   [myGeoBeerMapTest
+ commit - Trying out Webpack 4](https://github.com/devNoiseConsulting/myGeoBeerMapTest/commit/d204a891a603640f4d8f3d722f9cabc386ac6fed)
+
+### Round 3, Day 70: Mar 23, 2018
+**Today's Progress:** Philly.NET's Code Camp 2018.1 Workshop
+
+**Thoughts:** Spent the day at Philly.NET's Code Camp. Attended Chris Love's workshop on Progressice Web Apps.
+
+**Link to work:**
+-   [Philly.NET's Code Camp 2018.1](http://phillydotnet.org/camps/2018-1/)
+-   [Progressive Web Apps From Beginner to Expert](http://phillydotnet.org/sessions/progressive-web-apps-from-beginner-to-expert/)
+
+### Round 3, Day 71: Mar 24, 2018
+**Today's Progress:** Philly.NET's Code Camp 2018.1
+
+**Thoughts:** Not really a .NET developer, but I can find a good set of sessions that matched up with my interests.
+
+**Link to work:**
+-   [Philly.NET's Code Camp 2018.1](http://phillydotnet.org/camps/2018-1/)
+-   [Vue + Vuetify + Vuex](https://phillycc.love2dev.com/session/vue-vuetify-vuex/)
+-   [The Server is Dead! Going Serverless to Create a Highly Scalable Application You Can Manage](https://phillycc.love2dev.com/session/the-server-is-dead-going-serverless-to-create-a-highly-scalable-application-you-can-manage/)
+-   [Optimizing ReactJS](https://phillycc.love2dev.com/session/optimizing-reactjs/)
+-   [Creating a Progressive Web Application (PWA) From Scratch to Engaging App
+Chris](https://phillycc.love2dev.com/session/creating-a-progressive-web-application-pwa-from-scratch-to-engaging-app/)
+-   [Introduction to React Native with Redux](https://phillycc.love2dev.com/session/introduction-to-react-native-with-redux/)
+
+### Round 3, Day 72: Mar 26, 2018
+**Today's Progress:** Working on a manifest.json for the Inner Sphere Atlas
+
+**Thoughts:** Using the PWABuilder site to get my manifest.json. Renaming some icons files to match up with all the new icons. Updated templates, then adding the new icons and the manifest.json.
+
+**Link to work:**
+-   [InnerSphereAtlas commit - Preparing for Manifest.json](https://github.com/devNoiseConsulting/InnerSphereAtlas/commit/4266f9bf3218a015122e26bccf8ad35b297a2768)
+-   [InnerSphereAtlas commit - Manifest.json](https://github.com/devNoiseConsulting/InnerSphereAtlas/commit/ec7d7b5b7409700678a9e4d7971b55f0a147e1b1)
+
+### Round 3, Day 73: Mar 27, 2018
+**Today's Progress:** Working on the service worker for the Inner Sphere Atlas
+
+**Thoughts:** Started working on getting a service worker. At this point, it won't do much as the site is still really a dynamic PHP site.
+
+**Link to work:**
+-   [InnerSphereAtlas commit - Service Worker](https://github.com/devNoiseConsulting/InnerSphereAtlas/commit/d90a9ecb9f175f74bb3885eeea23790ba17afb06)
+
+### Round 3, Day 74: Mar 29, 2018
+**Today's Progress:** Writing a script to test out the pokemagic module.
+
+**Thoughts:** Looking into using this module for a Pokemon/Discord Bot. Trying to figure out if some IV values can be pre calculated so the bot is only doing lookups. From initial tests, it looks like there are to many values to return. This will make a bot very spammy. Waiting to hear feedback from other coders on the discord server.
+
+**Link to work:**
+-   [Pokemon-IV-Test commit - Catch Calcs](https://github.com/devNoiseConsulting/Pokemon-IV-Test/commit/aa47b08cacb072506ae333a040ac4d6484886318)
+
+### Round 3, Day 75: Apr 1, 2018
+**Today's Progress:** Adding a Service worker cache to PokemonGoRaidZones
+
+**Thoughts:** Using parcel-plugin-sw-cache to have Parcel.JS create a service worker cache for the site.
+
+**Link to work:**
+-   [PokemonGoRaidZones commit - Adding a SW cache](https://github.com/devNoiseConsulting/PokemonGoRaidZones/commit/0579c0376c5b8f8ca1aa6dd5fb8e254828b35e7a)
+
+### Round 3, Day 76: Apr 2, 2018
+**Today's Progress:** No real progress on PokemonGoRaidZones due to build errors in Parcel.JS.
+
+**Thoughts:** Started working on getting a manifest.json setup for PokemonGoRaidZones. I can waste a lot of time working on graphics. Decided to clean up the repo a bit by moving most of the code to a new src dir. One I did this and cleaned up links into the node_modules dir, I get `🚨  Cannot read property 'js' of null` as the build error. Not really getting a good idea were the error comes from. Went with a `git reset --hard 0579c03` to be me back to yesterday's state. Still have the error. I give up for today.
+
+**Link to work:**
+-   [PokemonGoRaidZones commit - Adding a SW cache](https://github.com/devNoiseConsulting/PokemonGoRaidZones/commit/0579c0376c5b8f8ca1aa6dd5fb8e254828b35e7a)
 
 <!--
 
