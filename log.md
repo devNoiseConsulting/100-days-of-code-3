@@ -649,7 +649,16 @@ Added this script to cron so every morning we can start the day with a good clea
 **Link to work:**
 -   [Web Tooling & Automation](https://www.udacity.com/course/web-tooling-automation--ud892)
 
-### Round 3, Day 66: Mar 21, 2018
+### Round 3, Day 66: Mar 18, 2018
+**Today's Progress:** Doing some password generation and sed scripting.
+
+**Thoughts:** Found a script that would let bulk create some accounts and passwords. Unfortunately, raspbian has an older version, 2.0.7, of pwgen installed. So I can't used the `-y` option to omit certain characters. Spent a lot of time piping the output to sed and seeing if I could create a regex that did the same thing. To many special characters was making this hard to pull off. In the end I decide to chunk the password and insert the same special characters between the chunks. Not the most secure passwords, but would suit my needs.
+
+**Link to work:**
+-   [genaccts.sh](https://pastebin.com/nF2rviJM)
+-   `pwgen -c -n -s 9 1 | sed -E 's/(.{3})(.{3})(.{3})/\1!\2?\3+/'`
+
+### Round 3, Day 67: Mar 21, 2018
 **Today's Progress:** Setting up myGeoBeerMapTest to test out Webpack 4.0 builds
 
 **Thoughts:** With Parcel.JS lettting me down for a production build. Started to look into the newwer features of Webpack 4. Reading some articles and getting a test repo setup.
@@ -658,7 +667,7 @@ Added this script to cron so every morning we can start the day with a good clea
 -   [myGeoBeerMapTest
  commit - Initial commit](https://github.com/devNoiseConsulting/myGeoBeerMapTest/commit/b2665e90a7ce52cc6259b1f3a41981e9c0c8ea25)
 
-### Round 3, Day 69: Mar 22, 2018
+### Round 3, Day 68: Mar 22, 2018
 **Today's Progress:** More testing out Webpack 4.0 builds on myGeoBeerMapTest
 
 **Thoughts:** Getting webpack installed and trying to get the project running.
@@ -667,7 +676,7 @@ Added this script to cron so every morning we can start the day with a good clea
 -   [myGeoBeerMapTest
  commit - Trying out Webpack 4](https://github.com/devNoiseConsulting/myGeoBeerMapTest/commit/d204a891a603640f4d8f3d722f9cabc386ac6fed)
 
-### Round 3, Day 70: Mar 23, 2018
+### Round 3, Day 69: Mar 23, 2018
 **Today's Progress:** Philly.NET's Code Camp 2018.1 Workshop
 
 **Thoughts:** Spent the day at Philly.NET's Code Camp. Attended Chris Love's workshop on Progressice Web Apps.
@@ -676,7 +685,7 @@ Added this script to cron so every morning we can start the day with a good clea
 -   [Philly.NET's Code Camp 2018.1](http://phillydotnet.org/camps/2018-1/)
 -   [Progressive Web Apps From Beginner to Expert](http://phillydotnet.org/sessions/progressive-web-apps-from-beginner-to-expert/)
 
-### Round 3, Day 71: Mar 24, 2018
+### Round 3, Day 70: Mar 24, 2018
 **Today's Progress:** Philly.NET's Code Camp 2018.1
 
 **Thoughts:** Not really a .NET developer, but I can find a good set of sessions that matched up with my interests.
@@ -690,7 +699,7 @@ Added this script to cron so every morning we can start the day with a good clea
 Chris](https://phillycc.love2dev.com/session/creating-a-progressive-web-application-pwa-from-scratch-to-engaging-app/)
 -   [Introduction to React Native with Redux](https://phillycc.love2dev.com/session/introduction-to-react-native-with-redux/)
 
-### Round 3, Day 72: Mar 26, 2018
+### Round 3, Day 71: Mar 26, 2018
 **Today's Progress:** Working on a manifest.json for the Inner Sphere Atlas
 
 **Thoughts:** Using the PWABuilder site to get my manifest.json. Renaming some icons files to match up with all the new icons. Updated templates, then adding the new icons and the manifest.json.
@@ -699,7 +708,7 @@ Chris](https://phillycc.love2dev.com/session/creating-a-progressive-web-applicat
 -   [InnerSphereAtlas commit - Preparing for Manifest.json](https://github.com/devNoiseConsulting/InnerSphereAtlas/commit/4266f9bf3218a015122e26bccf8ad35b297a2768)
 -   [InnerSphereAtlas commit - Manifest.json](https://github.com/devNoiseConsulting/InnerSphereAtlas/commit/ec7d7b5b7409700678a9e4d7971b55f0a147e1b1)
 
-### Round 3, Day 73: Mar 27, 2018
+### Round 3, Day 72: Mar 27, 2018
 **Today's Progress:** Working on the service worker for the Inner Sphere Atlas
 
 **Thoughts:** Started working on getting a service worker. At this point, it won't do much as the site is still really a dynamic PHP site.
@@ -707,7 +716,7 @@ Chris](https://phillycc.love2dev.com/session/creating-a-progressive-web-applicat
 **Link to work:**
 -   [InnerSphereAtlas commit - Service Worker](https://github.com/devNoiseConsulting/InnerSphereAtlas/commit/d90a9ecb9f175f74bb3885eeea23790ba17afb06)
 
-### Round 3, Day 74: Mar 29, 2018
+### Round 3, Day 73: Mar 29, 2018
 **Today's Progress:** Writing a script to test out the pokemagic module.
 
 **Thoughts:** Looking into using this module for a Pokemon/Discord Bot. Trying to figure out if some IV values can be pre calculated so the bot is only doing lookups. From initial tests, it looks like there are to many values to return. This will make a bot very spammy. Waiting to hear feedback from other coders on the discord server.
@@ -715,7 +724,7 @@ Chris](https://phillycc.love2dev.com/session/creating-a-progressive-web-applicat
 **Link to work:**
 -   [Pokemon-IV-Test commit - Catch Calcs](https://github.com/devNoiseConsulting/Pokemon-IV-Test/commit/aa47b08cacb072506ae333a040ac4d6484886318)
 
-### Round 3, Day 75: Apr 1, 2018
+### Round 3, Day 74: Apr 1, 2018
 **Today's Progress:** Adding a Service worker cache to PokemonGoRaidZones
 
 **Thoughts:** Using parcel-plugin-sw-cache to have Parcel.JS create a service worker cache for the site.
@@ -723,13 +732,22 @@ Chris](https://phillycc.love2dev.com/session/creating-a-progressive-web-applicat
 **Link to work:**
 -   [PokemonGoRaidZones commit - Adding a SW cache](https://github.com/devNoiseConsulting/PokemonGoRaidZones/commit/0579c0376c5b8f8ca1aa6dd5fb8e254828b35e7a)
 
-### Round 3, Day 76: Apr 2, 2018
+### Round 3, Day 75: Apr 2, 2018
 **Today's Progress:** No real progress on PokemonGoRaidZones due to build errors in Parcel.JS.
 
 **Thoughts:** Started working on getting a manifest.json setup for PokemonGoRaidZones. I can waste a lot of time working on graphics. Decided to clean up the repo a bit by moving most of the code to a new src dir. One I did this and cleaned up links into the node_modules dir, I get `🚨  Cannot read property 'js' of null` as the build error. Not really getting a good idea were the error comes from. Went with a `git reset --hard 0579c03` to be me back to yesterday's state. Still have the error. I give up for today.
 
 **Link to work:**
 -   [PokemonGoRaidZones commit - Adding a SW cache](https://github.com/devNoiseConsulting/PokemonGoRaidZones/commit/0579c0376c5b8f8ca1aa6dd5fb8e254828b35e7a)
+
+### Round 3, Day 75: Apr 2, 2018
+**Today's Progress:** Creating some offline html for the service worker to cache, but then 501.
+
+**Thoughts:** Realized my basic service worker from [PWABuilder](http://www.pwabuilder.com/) wants to cache `offline.html`. Which I hadn't made yet. So I made a copy of the `index.html` template and started work on `offline.html`. Installed the [CSS Used](https://chrome.google.com/webstore/detail/css-used/cdopjfddjlonogibjahpnmjpoangjfff)
+ extension for Chrome to get the a copy of the CSS in use by the page. Once deployed, the website just gives me a blank web page. Having a hard time tracking down the error logs for the PHP code so I can see what went wrong.
+
+**Link to work:**
+-   [InnerSphereAtlas commit - Offline HTML](https://github.com/devNoiseConsulting/InnerSphereAtlas/commit/669eea6ce4107997198a746c8855264458417609)
 
 <!--
 
