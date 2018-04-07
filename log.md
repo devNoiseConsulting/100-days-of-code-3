@@ -740,7 +740,7 @@ Chris](https://phillycc.love2dev.com/session/creating-a-progressive-web-applicat
 **Link to work:**
 -   [PokemonGoRaidZones commit - Adding a SW cache](https://github.com/devNoiseConsulting/PokemonGoRaidZones/commit/0579c0376c5b8f8ca1aa6dd5fb8e254828b35e7a)
 
-### Round 3, Day 75: Apr 2, 2018
+### Round 3, Day 76: Apr 3, 2018
 **Today's Progress:** Creating some offline html for the service worker to cache, but then 501.
 
 **Thoughts:** Realized my basic service worker from [PWABuilder](http://www.pwabuilder.com/) wants to cache `offline.html`. Which I hadn't made yet. So I made a copy of the `index.html` template and started work on `offline.html`. Installed the [CSS Used](https://chrome.google.com/webstore/detail/css-used/cdopjfddjlonogibjahpnmjpoangjfff)
@@ -748,6 +748,22 @@ Chris](https://phillycc.love2dev.com/session/creating-a-progressive-web-applicat
 
 **Link to work:**
 -   [InnerSphereAtlas commit - Offline HTML](https://github.com/devNoiseConsulting/InnerSphereAtlas/commit/669eea6ce4107997198a746c8855264458417609)
+
+### Round 3, Day 77: Apr 4, 2018
+**Today's Progress:** Fixed Content Security Policy to allow Service Worker to work.
+
+**Thoughts:** Think the problems I had yesterday were due to me breaking the Content Security Policy header. To prevent down time, I set up a test domain that I could deploy the new code to. Chrome is not liking inline javascript. So this was breaking the service worker as the page couldn't load it. Move the code into a seperate javascript file, and later had to move the Google analytics code in as well. With the service worker installed, the page looks like crap. Back to the Content Security Policy and add all external dependencies to the `connect-src` section as well.
+
+**Link to work:**
+-   [InnerSphereAtlas commit - Content Security Protocol](https://github.com/devNoiseConsulting/InnerSphereAtlas/commit/77d0b5631a90b15a92ad2636ce7d6cd590aa9909)
+
+### Round 3, Day 78: Apr 6, 2018
+**Today's Progress:** Refactoring some coding challenges.
+
+**Thoughts:** Saw a link to a coding challenge on the Grow With Google slack server and decided to do it. So far these have been easy to do and I didn't consider mentioning them. Been semi active in a thread with other participants. My code is a mix of modern and standard JavaScript, but comments are pushing me to use as much ES2016+ as I can. One comment I saw today, made me refactor my code to handle the edge case that would cause it to fail. Another comment showed an abstraction I has thought about, but hadn't implemented yet. After taking the advice from the comments, I furthered refactored the code. Almost all of the arrow functions are now expressed as one liners. Once the challenge is over I'll be sure to post my code to a gist.
+
+**Link to work:**
+-   [21 Day Coding Challenge](https://coding-challenge.lighthouselabs.ca/start)
 
 <!--
 
