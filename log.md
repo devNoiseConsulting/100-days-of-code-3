@@ -765,6 +765,14 @@ Chris](https://phillycc.love2dev.com/session/creating-a-progressive-web-applicat
 **Link to work:**
 -   [21 Day Coding Challenge](https://coding-challenge.lighthouselabs.ca/start)
 
+### Round 3, Day 79: Apr 6, 2018
+**Today's Progress:** Started working with Google Lighthouse and Workbox
+
+**Thoughts:** Working on my Google Lighthouse audit. The trying to replace the service worker with the one generated my Google Workbox. Ran into some deployment issues.
+
+**Link to work:**
+-   [InnerSphereAtlas commit - Workbox integration](https://github.com/devNoiseConsulting/InnerSphereAtlas/commit/2324d11b728c3ad2b21f383a3f8eb8a93a600f1a)
+
 <!--
 
 ### Rouond 3, Day 0: Jan 1, 2018 (Example 1)
