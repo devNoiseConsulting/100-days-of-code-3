@@ -773,6 +773,16 @@ Chris](https://phillycc.love2dev.com/session/creating-a-progressive-web-applicat
 **Link to work:**
 -   [InnerSphereAtlas commit - Workbox integration](https://github.com/devNoiseConsulting/InnerSphereAtlas/commit/2324d11b728c3ad2b21f383a3f8eb8a93a600f1a)
 
+### Round 3, Day 80: Apr 7, 2018
+**Today's Progress:** Reviewing my Google Lighthouse Audit and revising my deployment script.
+
+**Thoughts:** Working on correcting some of the items in the Lighthouse audit. The Content Security Policy was the cause of a couple errors. Had to add a `manifest-src` option to the policy so Chrome could load the manifest.json. Updated a couple external dependencies (ie BootStrap/jQuery). Will have to look into getting the http request to be served as httpd.
+
+Revised the install script so that it uses sed to inject the Google Analytics ID. The will help cut down on manual edits to files on the server.
+
+**Link to work:**
+-   [InnerSphereAtlas commit - Workbox integration](https://github.com/devNoiseConsulting/InnerSphereAtlas/commit/9af175407b2018ed0e42a9d2198d883fd07e902c)
+
 <!--
 
 ### Rouond 3, Day 0: Jan 1, 2018 (Example 1)
