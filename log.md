@@ -765,7 +765,7 @@ Chris](https://phillycc.love2dev.com/session/creating-a-progressive-web-applicat
 **Link to work:**
 -   [21 Day Coding Challenge](https://coding-challenge.lighthouselabs.ca/start)
 
-### Round 3, Day 79: Apr 6, 2018
+### Round 3, Day 79: Apr 7, 2018
 **Today's Progress:** Started working with Google Lighthouse and Workbox
 
 **Thoughts:** Working on my Google Lighthouse audit. The trying to replace the service worker with the one generated my Google Workbox. Ran into some deployment issues.
@@ -773,7 +773,7 @@ Chris](https://phillycc.love2dev.com/session/creating-a-progressive-web-applicat
 **Link to work:**
 -   [InnerSphereAtlas commit - Workbox integration](https://github.com/devNoiseConsulting/InnerSphereAtlas/commit/2324d11b728c3ad2b21f383a3f8eb8a93a600f1a)
 
-### Round 3, Day 80: Apr 7, 2018
+### Round 3, Day 80: Apr 8, 2018
 **Today's Progress:** Reviewing my Google Lighthouse Audit and revising my deployment script.
 
 **Thoughts:** Working on correcting some of the items in the Lighthouse audit. The Content Security Policy was the cause of a couple errors. Had to add a `manifest-src` option to the policy so Chrome could load the manifest.json. Updated a couple external dependencies (ie BootStrap/jQuery). Will have to look into getting the http request to be served as httpd.
@@ -781,7 +781,15 @@ Chris](https://phillycc.love2dev.com/session/creating-a-progressive-web-applicat
 Revised the install script so that it uses sed to inject the Google Analytics ID. The will help cut down on manual edits to files on the server.
 
 **Link to work:**
--   [InnerSphereAtlas commit - Workbox integration](https://github.com/devNoiseConsulting/InnerSphereAtlas/commit/9af175407b2018ed0e42a9d2198d883fd07e902c)
+-   [InnerSphereAtlas commit - Lighthouse tweaks](https://github.com/devNoiseConsulting/InnerSphereAtlas/commit/9af175407b2018ed0e42a9d2198d883fd07e902c)
+
+### Round 3, Day 81: Apr 9, 2018
+**Today's Progress:** Working on improving the accessibility part of the Google Lighthouse Audit.
+
+**Thoughts:** Mostly adding some aria-labels to improve accessibility. Started with the social media links in the footer and then the icons that indication descriptions or factories present on the planet. Adding the manifest.json and theme-color to the site’s pages.
+
+**Link to work:**
+-   [InnerSphereAtlas commit - Lighthouse tweaks again](https://github.com/devNoiseConsulting/InnerSphereAtlas/commit/9f3a20545c26da38cf022c2b54e15418a14f58ee)
 
 <!--
 
