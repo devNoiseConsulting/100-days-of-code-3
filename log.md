@@ -791,6 +791,26 @@ Revised the install script so that it uses sed to inject the Google Analytics ID
 **Link to work:**
 -   [InnerSphereAtlas commit - Lighthouse tweaks again](https://github.com/devNoiseConsulting/InnerSphereAtlas/commit/9f3a20545c26da38cf022c2b54e15418a14f58ee)
 
+### Round 3, Day 82: Apr 10, 2018
+**Today's Progress:** Fighting with the code challenge interpreter.
+
+**Thoughts:** First off the challenge was not very tricky. Understood exactly what they wanted and had some a good idea how to implement it. The code editor in the browser is ok, but I prefer the setup I have in Atom. So I have been writing the code in Atom and testing it with Node.js. Came up with a solution that worked, and did some refactoring. When I go to paste the new function into the browser, I get the following error when I run it: `Your code has a syntax problem. Please check it and try again.` Spent so much time trying to debug what should be a working solution, I'm declaring it my hour of code. Turns out that the site is only saving my code at the time of first successful completion of the challenge. So the site doesn't have all of my refactored code. After many rounds of debugging, I found out that the `const ROCK` wasn't defined. The error Node.js would give me for that is: `ReferenceError: ROCK is not defined`. Which would have been a lot easy to debug and fix.
+
+**Link to work:**
+-   [21 Day Coding Challenge](https://coding-challenge.lighthouselabs.ca/start)
+
+### Round 3, Day 83: Apr 12, 2018
+**Today's Progress:** Free React.js Bootcamp.
+
+**Thoughts:** Started taking a free React.js Bootcamp by Tyler McGinnis. Found it from a link on the Grow with Google slack. I'm a couple days behind, so I'm not watching the live stream. Covered the basics, and did the challenge code pens, 
+
+**Link to work:**
+-   [Free React.js Bootcamp](https://tylermcginnis.com/free-react-bootcamp/)
+-   [Props - 1](https://codepen.io/_dev_noise/pen/jzoPdJ)
+-   [Props - 2](https://codepen.io/_dev_noise/pen/qoGdvR)
+-   [Props - 3](https://codepen.io/_dev_noise/pen/MVdwMW)
+-   [Props - 4](https://codepen.io/_dev_noise/pen/WzBvVm)
+
 <!--
 
 ### Rouond 3, Day 0: Jan 1, 2018 (Example 1)
