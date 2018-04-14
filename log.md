@@ -800,9 +800,9 @@ Revised the install script so that it uses sed to inject the Google Analytics ID
 -   [21 Day Coding Challenge](https://coding-challenge.lighthouselabs.ca/start)
 
 ### Round 3, Day 83: Apr 12, 2018
-**Today's Progress:** Free React.js Bootcamp.
+**Today's Progress:** Free React.js Bootcamp, Day 1.
 
-**Thoughts:** Started taking a free React.js Bootcamp by Tyler McGinnis. Found it from a link on the Grow with Google slack. I'm a couple days behind, so I'm not watching the live stream. Covered the basics, and did the challenge code pens, 
+**Thoughts:** Started taking a free React.js Bootcamp by Tyler McGinnis. Found it from a link on the Grow with Google slack. I'm a couple days behind, so I'm not watching the live stream. Covered the basics, and did the challenge code pens,
 
 **Link to work:**
 -   [Free React.js Bootcamp](https://tylermcginnis.com/free-react-bootcamp/)
@@ -810,6 +810,15 @@ Revised the install script so that it uses sed to inject the Google Analytics ID
 -   [Props - 2](https://codepen.io/_dev_noise/pen/qoGdvR)
 -   [Props - 3](https://codepen.io/_dev_noise/pen/MVdwMW)
 -   [Props - 4](https://codepen.io/_dev_noise/pen/WzBvVm)
+
+### Round 3, Day 84: Apr 13, 2018
+**Today's Progress:** Free React.js Bootcamp, Day 2.
+
+**Thoughts:** Continued the Free React.js Bootcamp. Making the web page more interactive. Also covering the problems around `this` and making sure to `.bind(this)` so we have the right context.
+
+**Link to work:**
+-   [Free React.js Bootcamp](https://tylermcginnis.com/free-react-bootcamp/)
+-   [Day 2 Challenge Gist](https://gist.github.com/fe2f3c9b8c0bc9a7d6e89c22824ec27a)
 
 <!--
 
