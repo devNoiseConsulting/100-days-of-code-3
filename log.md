@@ -820,6 +820,24 @@ Revised the install script so that it uses sed to inject the Google Analytics ID
 -   [Free React.js Bootcamp](https://tylermcginnis.com/free-react-bootcamp/)
 -   [Day 2 Challenge Gist](https://gist.github.com/fe2f3c9b8c0bc9a7d6e89c22824ec27a)
 
+### Round 3, Day 85: Apr 16, 2018
+**Today's Progress:** Started Free React.js Bootcamp, Day 3.
+
+**Thoughts:** Started day 3, but didn't have enough time to finish it. Focused on the React.js lifecycle with componentDidMount being the main one used.
+
+**Link to work:**
+-   [Free React.js Bootcamp](https://tylermcginnis.com/free-react-bootcamp/)
+
+### Round 3, Day 86: Apr 16, 2018
+**Today's Progress:** Finished Free React.js Bootcamp, Day 3.
+
+**Thoughts:** Finished day 3. componentDidUpdate was the other main lifecycle method day 3 focused on. Can see componentDidMount and componentDidUpdate doing basically the same work. Should abstract/refactor that work into another function that will be called by both.
+Made a local copy of the solution to make sure I had the same things displayed. Used the dev tools to inspect to figure out to code the styling. Had to look at the code a bit to figure out why I didn't have the same repos displayed. I only fetched the repo list once and then filtered the list based on the selected language. The solution code was fetching a new list of repos when a language was selected. 
+
+**Link to work:**
+-   [Free React.js Bootcamp](https://tylermcginnis.com/free-react-bootcamp/)
+-   [Day 3 Challenge Gist](https://gist.github.com/ddc930ca5db7d428cf0ddc4edb5708c0)
+
 <!--
 
 ### Rouond 3, Day 0: Jan 1, 2018 (Example 1)
