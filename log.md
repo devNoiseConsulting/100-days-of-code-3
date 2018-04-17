@@ -832,11 +832,19 @@ Revised the install script so that it uses sed to inject the Google Analytics ID
 **Today's Progress:** Finished Free React.js Bootcamp, Day 3.
 
 **Thoughts:** Finished day 3. componentDidUpdate was the other main lifecycle method day 3 focused on. Can see componentDidMount and componentDidUpdate doing basically the same work. Should abstract/refactor that work into another function that will be called by both.
-Made a local copy of the solution to make sure I had the same things displayed. Used the dev tools to inspect to figure out to code the styling. Had to look at the code a bit to figure out why I didn't have the same repos displayed. I only fetched the repo list once and then filtered the list based on the selected language. The solution code was fetching a new list of repos when a language was selected. 
+Made a local copy of the solution to make sure I had the same things displayed. Used the dev tools to inspect to figure out to code the styling. Had to look at the code a bit to figure out why I didn't have the same repos displayed. I only fetched the repo list once and then filtered the list based on the selected language. The solution code was fetching a new list of repos when a language was selected.
 
 **Link to work:**
 -   [Free React.js Bootcamp](https://tylermcginnis.com/free-react-bootcamp/)
 -   [Day 3 Challenge Gist](https://gist.github.com/ddc930ca5db7d428cf0ddc4edb5708c0)
+
+### Round 3, Day 87: Apr 16, 2018
+**Today's Progress:** Free React.js Bootcamp, Day 4.
+
+**Thoughts:** Finished the Free React.js Bootcamp. Going over the React Router v4. Covered setting up the routes and how to make sub routes in a component.
+
+**Link to work:**
+-   [Free React.js Bootcamp](https://tylermcginnis.com/free-react-bootcamp/)
 
 <!--
 
