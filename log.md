@@ -846,6 +846,22 @@ Made a local copy of the solution to make sure I had the same things displayed. 
 **Link to work:**
 -   [Free React.js Bootcamp](https://tylermcginnis.com/free-react-bootcamp/)
 
+### Round 3, Day XX: Apr 17, 2018
+**Today's Progress:** No Progress.
+
+**Thoughts:** Today was the day I would find out if I moved on to Phase 2 for the Udacity's Grow with Google Scholarship. I didn't get it. Felt discouraged and lost all motivation to work on code.
+
+**Link to work:**
+-   [Grow with Google](https://www.udacity.com/grow-with-google)
+
+### Round 3, Day 88: Apr 18, 2018
+**Today's Progress:** Completed challenge 17 for the 21 Day Coding Challenge
+
+**Thoughts:** Frustrating! On the one hand, I only have 1 grid set to test against and my code works for it. On the other hand, Javascript why do you not have a way to round decimal numbers to fixed of digits? So I needed to format my results with 2 digits after the decimal and my answers were straight up integers. Throw into the mix I'm also dealing with percents and I'm just shooting myself in the foot.
+
+**Link to work:**
+-   [21 Day Coding Challenge](https://coding-challenge.lighthouselabs.ca/start)
+
 <!--
 
 ### Rouond 3, Day 0: Jan 1, 2018 (Example 1)
