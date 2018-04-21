@@ -862,6 +862,26 @@ Made a local copy of the solution to make sure I had the same things displayed. 
 **Link to work:**
 -   [21 Day Coding Challenge](https://coding-challenge.lighthouselabs.ca/start)
 
+### Round 3, Day 89: Apr 19, 2018
+**Today's Progress:** Completed challenge 18 for the 21 Day Coding Challenge
+
+**Thoughts:** Totally screwed this one up on my own. For some reason I hard coded the total numbers of cells when calculating the number of open cells. Worse part was I had a variable with that value save in it.
+Side note: the challenge builds off of challenge 17, but instead of returning percentages, we are now returning numbered counts. Yet the function is still called percentageReport.
+
+**Link to work:**
+-   [21 Day Coding Challenge](https://coding-challenge.lighthouselabs.ca/start)
+
+### Round 3, Day 90: Apr 20, 2018
+**Today's Progress:** Starting a new react app.
+
+**Thoughts:**  Completed the challenge for the 21 Day Coding Challenge. The change in output screwed me up. Only 1 decimal place and a % sign needed today.
+
+Starting a new progressive web app to be a directory of all the gym for my Pokemon Go group. Didn't get to far as I keep looking for the additional commands to let create-react-app scaffold my components. Doesn't seem to have them like the angular cli.
+
+**Link to work:**
+-   [21 Day Coding Challenge](https://coding-challenge.lighthouselabs.ca/start)
+-   [DiscordRaidHelp commit](https://github.com/devNoiseConsulting/DiscordRaidHelp/commit/4af05698a2e1ed7df71b3cbca6b9c111b9a2a2d9)
+
 <!--
 
 ### Rouond 3, Day 0: Jan 1, 2018 (Example 1)
