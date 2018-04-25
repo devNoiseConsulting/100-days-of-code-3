@@ -882,6 +882,35 @@ Starting a new progressive web app to be a directory of all the gym for my Pokem
 -   [21 Day Coding Challenge](https://coding-challenge.lighthouselabs.ca/start)
 -   [DiscordRaidHelp commit](https://github.com/devNoiseConsulting/DiscordRaidHelp/commit/4af05698a2e1ed7df71b3cbca6b9c111b9a2a2d9)
 
+### Round 3, Day XX: Apr 21, 2018
+**Today's Progress:** Global Azure Bootcamp and 21 Day Coding Challenge
+
+**Thoughts:**  Completed the challenge for the 21 Day Coding Challenge.
+
+Attended the Global Azure Bootcamp 2018 at Microsoft's office in Malvern, PA. Mostly high level talks. Think the container talk, was the most interesting one of the day.
+
+**Link to work:**
+-   [21 Day Coding Challenge](https://coding-challenge.lighthouselabs.ca/start)
+-   [Global Azure Bootcamp 2018 - Malvern, PA](https://global.azurebootcamp.net/locations/united-states-malven/)
+
+### Round 3, Day XX: Apr 21, 2018
+**Today's Progress:** Finished the 21 Day Coding Challenge
+
+**Thoughts:**  Finished the 21 Day Coding Challenge for Lighthouse Labs.
+
+
+**Link to work:**
+-   [21 Day Coding Challenge](https://coding-challenge.lighthouselabs.ca/start)
+
+### Round 3, Day 91: Apr 24, 2018
+**Today's Progress:** Working on some Hackerrank challenges
+
+**Thoughts:** Just working on some challenges to get my hour in for the day. Procrasting about getting back to the freeCodeCamp projects.
+
+**Link to work:**
+-   [Hackerrank Profile](https://www.hackerrank.com/flynnmj)
+
+
 <!--
 
 ### Rouond 3, Day 0: Jan 1, 2018 (Example 1)
