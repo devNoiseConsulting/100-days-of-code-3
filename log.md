@@ -910,6 +910,14 @@ Attended the Global Azure Bootcamp 2018 at Microsoft's office in Malvern, PA. Mo
 **Link to work:**
 -   [Hackerrank Profile](https://www.hackerrank.com/flynnmj)
 
+### Round 3, Day 92: Apr 25, 2018
+**Today's Progress:** Working on some Hackerrank challenges
+
+**Thoughts:** Going through the challenges to rank up my badge. Focusing on powering through the Days of JS badge. 
+
+**Link to work:**
+-   [Hackerrank Profile](https://www.hackerrank.com/flynnmj)
+
 
 <!--
 
