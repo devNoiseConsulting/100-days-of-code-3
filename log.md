@@ -913,11 +913,42 @@ Attended the Global Azure Bootcamp 2018 at Microsoft's office in Malvern, PA. Mo
 ### Round 3, Day 92: Apr 25, 2018
 **Today's Progress:** Working on some Hackerrank challenges
 
-**Thoughts:** Going through the challenges to rank up my badge. Focusing on powering through the Days of JS badge. 
+**Thoughts:** Going through the challenges to rank up my badge. Focusing on powering through the Days of JS badge.
 
 **Link to work:**
 -   [Hackerrank Profile](https://www.hackerrank.com/flynnmj)
 
+### Round 3, Day 93: Apr 26, 2018
+**Today's Progress:** Working on some Hackerrank challenges
+
+**Thoughts:** More grinding through the Days of JS badge. Got through the challenges for days 6 & 7. The "Day 6: Bitwise Operators" was a pain. This was mostly due to the fact that my solution was fast enough for them.
+
+**Link to work:**
+-   [Hackerrank Profile](https://www.hackerrank.com/flynnmj)
+
+### Round 3, Day 94: Apr 27, 2018
+**Today's Progress:** Working on some Hackerrank challenges
+
+**Thoughts:** Finished the Days of JS badge. The last challenges for this badge lost a bit of the focus on Javascript. Had to create HTML elements and the CSS.
+
+**Link to work:**
+-   [Hackerrank Profile](https://www.hackerrank.com/flynnmj)
+
+### Round 3, Day 95: Apr 28, 2018
+**Today's Progress:** Working on a Hackerrank challenge
+
+**Thoughts:** Did the 'Kangaroo' challenge that Hackerrank sent me in an email to attempt. Had to download the input for one of the test so my solution could pass all the tests.
+
+**Link to work:**
+-   [Hackerrank Profile](https://www.hackerrank.com/flynnmj)
+
+### Round 3, Day 96: Apr 29, 2018
+**Today's Progress:** Working on some Hackerrank challenges
+
+**Thoughts:** Completed 'Between Two Sets' and 'Birthday Chocolate' challenges. Took a bit to figure out hat was needed for 'Between Two Sets'. Definitely had to break it down into parts to solve. 'Birthday Chocolate' was pretty straight forward. Before I submitted it I realized the array slice might not be the right size. Added a check and passed on the first submit.
+
+**Link to work:**
+-   [Hackerrank Profile](https://www.hackerrank.com/flynnmj)
 
 <!--
 
