@@ -950,6 +950,15 @@ Attended the Global Azure Bootcamp 2018 at Microsoft's office in Malvern, PA. Mo
 **Link to work:**
 -   [Hackerrank Profile](https://www.hackerrank.com/flynnmj)
 
+### Round 3, Day 97: Apr 30, 2018
+**Today's Progress:** Working on some Hackerrank challenges
+
+**Thoughts:** Completed 'Divisible Sum Pairs', 'Breaking the Records' and 'Migratory Birds'. Coding nested reduce statements can be confusing.
+
+**Link to work:**
+-   [Hackerrank Profile](https://www.hackerrank.com/flynnmj)
+
+
 <!--
 
 ### Rouond 3, Day 0: Jan 1, 2018 (Example 1)
