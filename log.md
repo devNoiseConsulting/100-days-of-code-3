@@ -959,6 +959,16 @@ Attended the Global Azure Bootcamp 2018 at Microsoft's office in Malvern, PA. Mo
 -   [Hackerrank Profile](https://www.hackerrank.com/flynnmj)
 
 
+### Round 3, Day 98: May 1, 2018
+**Today's Progress:** Working on some Hackerrank challenges
+
+**Thoughts:**
+-   'Day of the Programmer' - Off by one bug on the one test case I failed. Bad data on my part.
+-   'Drawing Book' - Needed to see one of the test cases in 'Drawing Book'. Had to check for an edge case.
+
+**Link to work:**
+-   [Hackerrank Profile](https://www.hackerrank.com/flynnmj)
+
 <!--
 
 ### Rouond 3, Day 0: Jan 1, 2018 (Example 1)
