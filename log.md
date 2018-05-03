@@ -969,6 +969,15 @@ Attended the Global Azure Bootcamp 2018 at Microsoft's office in Malvern, PA. Mo
 **Link to work:**
 -   [Hackerrank Profile](https://www.hackerrank.com/flynnmj)
 
+### Round 3, Day 99: May 2, 2018
+**Today's Progress:** Attended a React workshop at PTW's Dev Day
+
+**Thoughts:** Was a good workshop, didn't cover as much redux as I would have liked. Started a project with create-react-appa and worked on getting the code working.
+
+**Link to work:**
+-   [PTW Dev Workshops](http://2018.phillytechweek.com/events/dev_workshops)
+-   [React Playground Solution Repo](https://github.com/krimple/react-playground-solution)
+
 <!--
 
 ### Rouond 3, Day 0: Jan 1, 2018 (Example 1)
