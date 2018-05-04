@@ -978,6 +978,14 @@ Attended the Global Azure Bootcamp 2018 at Microsoft's office in Malvern, PA. Mo
 -   [PTW Dev Workshops](http://2018.phillytechweek.com/events/dev_workshops)
 -   [React Playground Solution Repo](https://github.com/krimple/react-playground-solution)
 
+### Round 3, Day 100: May 3, 2018
+**Today's Progress:** Working on some Hackerrank challenges
+
+**Thoughts:** Finished my 100 days of code with a couple more Hackerrank challenges. Completed `Bon Appétit` and `Sock Merchant`.  For the `Sock Merchant` challenge, I went with initializing the accumulator outside of the reduce. Went this way so I wouldn't have to check if the element exists in the array.
+
+**Link to work:**
+-   [Hackerrank Profile](https://www.hackerrank.com/flynnmj)
+
 <!--
 
 ### Rouond 3, Day 0: Jan 1, 2018 (Example 1)
